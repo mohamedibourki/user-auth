@@ -44,7 +44,7 @@ app.post('/login', async (req, res) => {
         res.status(500).send()
     }
 })
-
+//Create, Read, Update, Delete //CRUD
 app.get('/', (req, res) => {
     res.json(users);
 });
